@@ -1,0 +1,139 @@
+body{
+    background: rgb(190, 182, 182);
+    margin: 0;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+ .logo {
+     float: left;
+     width: 10%;
+     
+ }
+
+ 
+ img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.menu {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+
+.menu li {
+display: inline-block;
+
+}
+
+.menu li a{
+   color: #000;
+   margin-left: 20px;
+   padding: 15px 0;
+   display: block;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+.menu li a:hover {
+   color: red;
+}
+
+#featured-post{
+   background-image: url(Images/10.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 80px;
+   height: 30%;
+   width: 100%;
+   color:#fff;
+}
+#featured-post .wrapper{
+   width: 300px;
+}
+
+a.category {
+   color: #FFF;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   text-decoration: none;
+   font-size: 12px;
+}
+
+h2{
+   font-size: 42px;
+   letter-spacing: 2px;
+   margin: 5px 0;
+}
+
+a.button{
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #FFF;
+   font-size: 12px;
+   letter-spacing: 1px;
+   border: 1px solid #FFF;
+   padding: 10px 12px;
+   margin-top: 20px;
+   display: inline-block;
+
+}
+
+#content{
+   width: 70%;
+   float: left;
+}
+#sidebar {
+   background: cornsilk;
+   width: 30%;
+   float: left;
+   /* position: fixed; */
+}
+.clearfix {
+   clear: both;
+}
+
+.list-article {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   margin-right: 20px;
+   margin-top: 20px;
+}
+
+.list-article a.category {
+   margin-top: 20px;
+   display: inline-block;
+   margin-bottom: 20px;
+   color: brown;
+}
+
+.list-article a.button {
+   border-color: red;
+   color: red;
+}
+
+.list-article .author {
+   margin-top: 50px;
+}
+
+.list-article .author .image-wrapper {
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   overflow: hidden;
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 10px;
+   /* background-color: rgb(255, 0, 0); */
+}
+
+.logo img{
+    width: 80%;
+}
