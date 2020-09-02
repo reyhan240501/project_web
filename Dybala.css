@@ -1,0 +1,109 @@
+body{
+    background:wheat;
+    margin: 0;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    width: 90px;
+    margin-top: 10px;
+}
+
+img{
+    display: block;
+    width: 90%;
+    height: auto;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.menu li{
+    display: inline-block;
+}    
+.menu li a{
+    color:black;
+    margin-left: 20px;
+    padding: 15px 0;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#featured-post{
+    background-image: url(images/peran.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+#featured-post .wrapper{
+    width: 500px;
+    color:white;
+}
+
+h2{
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+#content{
+    background:ye;
+    width: 70%;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+
+#sidebar{
+    width: 30%;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+.list-article{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.list-article a.category{
+    color: #ca9b52;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.list-article a.button{
+    border-color: #ca9b52;
+    color: #ca9b52;
+}
+
+#content h2{
+    font-weight: normal;
+}
+h1{
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer{
+    text-align: center;
+}
