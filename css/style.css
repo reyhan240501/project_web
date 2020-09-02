@@ -1,0 +1,212 @@
+body{
+    background:rgb(50, 7, 129);
+    margin: 0;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    width: 100px;
+    margin-top: 8px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.menu{
+    
+        height: 45px;
+        
+        text-transform: uppercase;
+        font-size: 100%;
+        background:rgb(50, 7, 129);
+        color: #fff;
+        font-family: Oswald;
+        margin: 0 15px;
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-family: sans-serif;
+}
+
+.menu li{
+    display: inline-block;
+    float: left;
+}    
+
+.menu li a{
+    color:black;
+    margin-left: 20px;
+    padding: 15px 0;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu li a:hover{
+    color:white;
+    
+}
+
+#featured-post{
+    background-image: url(../barca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+#featured-post .wrapper{
+    
+    width: 500px;
+    color: white;
+}
+
+a.category{
+    
+    
+    color: rgb(167, 179, 185);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 48px;
+    
+}
+
+h2{
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    font-family: sans-serif;
+}
+
+a.button{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    border: 1px solid white;
+    padding: 15px 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#content{
+    background:white;
+    max-width: 80%;
+    font-family: sans-serif;
+}
+
+#sidebar{
+    background: blue;
+    width: 30%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.list-article{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.list-article a.category{
+    color: #ca9b52;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.list-article a.button{
+    border-color: #ca9b52;
+    color: #ca9b52;
+}
+
+.list-article .author{
+    margin-top: 50px;
+}
+
+.list-article .author .image-wrapper{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+color:white;{
+    text-dcoration:none;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-size:12px;
+    border:1px solid white;
+    padding:15px 10px;
+    margin-top:20px;
+
+
+}
+#content{
+    background:white;
+    widows: 30%;
+    align-content: center;
+}
+.clearfix{
+    clear:both;
+}
+.list-article{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.list-article a.category{
+    color: #ca9b52;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.list-article a.button{
+    border-color: #ca9b52;
+    color: #ca9b52;
+}
+
+
+
+.list-article .author .image-wrapper{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.footer-article{
+position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+    font-size: 120%;
+    font-weight: 700;
+    padding: 4px 8px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .5s;
+    font-family: sans-serif;
+}
