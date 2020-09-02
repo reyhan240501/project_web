@@ -58,7 +58,7 @@ img{
 }
 
 #featured-post{
-    background-image: url(../barca.jpg);
+    background-image: url(barca.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
